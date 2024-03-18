@@ -1,0 +1,25 @@
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hour, .minute, .second {
+    position: relative;
+    width: 6px;
+    height: 100px;
+    background-color: black;
+}
+
+.hour {
+    border-radius: 3px;
+}
+
+.minute {
+    border-radius: 2px;
+}
+
+.second {
+    border-radius: 1px;
+}
